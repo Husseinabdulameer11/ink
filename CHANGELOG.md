@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.1
+
+- A project template: `quill pkg create-project husseinabdulameer11/ink myblog`
+  starts a blog with accounts, posts, comments and a JSON API (the app that
+  was Inkwell). It is in `template/` and is left out when Ink is installed
+  as a package
+
 ## 0.1.0
 
 First version, moved out of the Quill repository into a package of its own.

@@ -3,6 +3,7 @@
     "description": "A small Laravel-style web framework for Quill",
     "license": "MIT",
     "main": "ink.ql",
+    "template": "template",
     "require": {
         "quill": ">=0.3"
     }

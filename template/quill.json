@@ -1,0 +1,10 @@
+{
+    "name": "me/blog",
+    "description": "A blog built on Ink",
+    "type": "project",
+    "start": "quill serve . --router index.ql",
+    "require": {
+        "quill": ">=0.4",
+        "husseinabdulameer11/ink": "^0.1"
+    }
+}

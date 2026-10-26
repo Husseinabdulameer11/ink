@@ -7,11 +7,11 @@ protection and logins. It is one file of Quill, about 900 lines.
 
 ## Installing
 
-Ink is a Quill package. The quickest start is the Inkwell blog template,
-which gives you a working app with accounts, posts and comments:
+Ink is a Quill package. The quickest start is the blog template that comes
+with it (in `template/`), a working app with accounts, posts and comments:
 
 ```
-quill pkg create-project husseinabdulameer11/inkwell myblog
+quill pkg create-project husseinabdulameer11/ink myblog
 cd myblog
 quill serve . --router index.ql
 ```
@@ -24,7 +24,11 @@ quill pkg require husseinabdulameer11/ink
 ```
 
 That puts Ink in `_vendor/` and records the version in `quill.json` and
-`quill.lock`. Ink needs Quill 0.3 or newer; `quill pkg` itself came in 0.4.
+`quill.lock`. Ink needs Quill 0.3 or newer; `quill pkg` came in 0.4, and
+starting from the template needs Quill 0.4.
+
+The template is a complete example of everything below: read
+`template/_app/` alongside this guide.
 
 ## How an Ink app is laid out
 

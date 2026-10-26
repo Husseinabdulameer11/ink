@@ -6,9 +6,9 @@
  *
  *     quill pkg require husseinabdulameer11/ink
  *
- * or start a whole app from the Inkwell template:
+ * or start a whole app from the blog template that comes with Ink:
  *
- *     quill pkg create-project husseinabdulameer11/inkwell myblog
+ *     quill pkg create-project husseinabdulameer11/ink myblog
  *
  * An Ink app is a Quill site served with a router page:
  *
@@ -39,7 +39,7 @@
  *   errors      ink.abort(404); exceptions become error pages (details when debug is on)
  */
 
-VERSION = "0.1.0";
+VERSION = "0.1.1";
 NONE = ["<ink: argument not given>"];        // tells "not passed" from null
 OPS = ["=", "!=", "<", ">", "<=", ">=", "LIKE", "NOT LIKE"];
 WRITES = ["POST", "PUT", "PATCH", "DELETE"];

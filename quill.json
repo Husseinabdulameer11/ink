@@ -1,0 +1,9 @@
+{
+    "name": "husseinabdulameer11/ink",
+    "description": "A small Laravel-style web framework for Quill",
+    "license": "MIT",
+    "main": "ink.ql",
+    "require": {
+        "quill": ">=0.3"
+    }
+}
